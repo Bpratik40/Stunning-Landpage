@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.class1 {
+  margin-top: 4px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  padding: 10px;
+}
+.class2 {
+  padding: 20px;
+}
+.name {
+  padding: 30px;
+  color: #a4a09a;
+  font-weight: 600;
+}
+#id1:hover {
+  padding: 30px;
+  color: black;
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #8071d0;
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+}
+.b1 {
+  background-color: #ffd8db;
+  color: #a389cc;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #ffd8db;
+  width: 115%;
+  font-weight: 600;
+  font-size: 10px;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  padding: 20px;
+  margin-left: 160px;
+  font-size: 70px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.h1 {
+  border: 1px solid #44308c;
+  color: #44308c;
+  border-radius: 1px;
+  font-size: 10px;
+  background-color: #44308c;
+}
+p {
+  font-size: 18px;
+  padding-left: 181px;
+  color: #a4a09a;
+}
+.class4 {
+  display: flex;
+}
+.b2 {
+  width: 20%;
+  height: 45px;
+  margin-left: 180px;
+  margin-top: 28px;
+  background-color: #5243c0;
+  border: 1px solid #5243c0;
+  color: #ffff;
+  border-radius: 20px;
+  font-size: 10px;
+}
+.arrow {
+  margin-top: 22px;
+  background-color: #ffff;
+}
+
+.list-item {
+  margin-top: 45px;
+  margin-left: 180px;
+}
+.list1 {
+  border: 1px solid #f2f3f3;
+  width: 75%;
+  justify-content: space-around;
+  margin: 6px 0;
+  background-color: #f2f3f3;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  position: relative;
+  display: flex;
+  transition: all 0.2s;
+}
+.list1:hover {
+  background-color: #ffff;
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+.list {
+  margin-top: 12px;
+}
+#date {
+  color: #a4a09a;
+}
+.list1 .img-color {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 8px;
+  z-index: 99;
+}
+.list1:hover .img-color {
+  display: inline;
+}
+.button {
+  height: 10px;
+  margin-top: 12px;
+  border-radius: 28px;
+  font-size: 8px;
+}
+#button1 {
+  border: 1px solid #fed7da;
+  background-color: #fed7da;
+  color: #fed7da;
+  margin-top: 15px;
+}
+#button2 {
+  border: 1px solid #fd6534;
+  background-color: #fd6534;
+  color: #fd6534;
+  margin-top: 15px;
+}
+#button3 {
+  border: 1px solid #9ed095;
+  background-color: #9ed095;
+  color: #9ed095;
+  margin-top: 15px;
+}
+#button4 {
+  border: 1px solid #ffe4a0;
+  background-color: #ffe4a0;
+  color: #ffe4a0;
+  margin-top: 15px;
+}
+.list:active {
+  color: red;
+}
